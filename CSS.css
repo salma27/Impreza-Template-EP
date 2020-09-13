@@ -6,6 +6,7 @@ body {
 	overflow: hidden;
 	background-color: white;
 	padding-right: 30px;
+	border-bottom: 1px solid #DCDCDC;
 }
 
 .navBar a {
