@@ -1,9 +1,99 @@
-<html>
-	<head>
-		<link rel="stylesheet" href="CSS.css" type = "text/css" />
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<body>
+	
+	<title>Document</title>
+</head>
+<body>
+
+<div class="w-switcher-section-list" id="mylist">
+	<a class="w-switcher-section-item" href="http://impreza21.us-themes.com/">
+		<div class="demo-title">Real Estate</div>
+		
+		<img src="https://help.us-themes.com/uploads/demos/impreza/realestate/preview.jpg" data-src="" alt="Real Estate">
+	</a>
+	<a class="w-switcher-section-item" href="http://impreza15.us-themes.com/">
+		<div class="demo-title">Fashion Shop</div>
+		
+		<img src="https://help.us-themes.com/uploads/demos/impreza/fashionshop/preview.jpg" data-src="" alt="Fashion Shop">
+	</a>
+	<a class="w-switcher-section-item" href="http://impreza20.us-themes.com/">
+		<div class="demo-title">Consulting Agency</div>
+		
+		<img src="https://help.us-themes.com/uploads/demos/impreza/consultingagency/preview.jpg" data-src="" alt="Consulting Agency">
+	</a>
+	<a class="w-switcher-section-item" href="http://impreza4.us-themes.com/">
+		<div class="demo-title">Digital Agency</div>
+		
+		<img src="https://help.us-themes.com/uploads/demos/impreza/portfolio/preview.jpg" data-src="" alt="Digital Agency">
+	</a>
+		<a class="w-switcher-section-item" href="http://impreza3.us-themes.com/">
+			<div class="demo-title">Creative Agency</div>
+			
+			<img src="https://help.us-themes.com/uploads/demos/impreza/creative/preview.jpg" data-src="" alt="Creative Agency">
+		</a>
+		<a class="w-switcher-section-item" href="http://impreza16.us-themes.com/">
+			<div class="demo-title">Interior Designer</div>
+			
+			<img src="https://help.us-themes.com/uploads/demos/impreza/interior-design-portfolio/preview.jpg" data-src="" alt="Interior Designer">
+		</a>
+		<a class="w-switcher-section-item" href="http://impreza19.us-themes.com/">
+			<div class="demo-title">Conference Landing</div>
+			
+			<img src="https://help.us-themes.com/uploads/demos/impreza/conferencelanding/preview.jpg" data-src="" alt="Conference Landing">
+		</a>
+		</div>
+
+
+
+
+
+
+	
+	<div class="sidebar" id="mySidebar">
+		
+		<button class="text" id="see" onmouseenter="w3_open()" onmouseleave="w3_close()" onclick="open_tab()"><i  class="fa fa-desktop" ></i>   </button>
+		<button class="text" id="test" onmouseenter="w3_open()" onmouseleave="w3_close()" onclick="location.href= 'http://themetest.net/impreza/';"><i  class="fa fa-check-circle"></i>     </button>
+		<button class="text" id="buy" onmouseenter="w3_open()" onmouseleave="w3_close()" onclick="location.href= 'https://themeforest.net/cart';" ><i  class="fa fa-shopping-cart"></i>  </button>
+		<button class="text" id="copy" onmouseenter="w3_open()" onmouseleave="w3_close()" ><i  class="fa fa-copy"></i>  </button>
+		
+	  </div>
+
+	  <div class="textsid" id="mytext">
+		<div id="a">see other domes</div>
+		<div id="b">Test admin area</div>
+		<div id="c"> Bay this theme</div>
+		<div id="d">Enable Section Copying</div>
+
+	  </div>
+	  
+	  
+	
+
+		<script>
+			function w3_open() {
+			  document.getElementById("mytext").style.display = "block";
+			}
+			
+			function open_tab(){
+				var stat=document.getElementById("mylist").style.display
+				if(stat=="none")
+				document.getElementById("mylist").style.display = "block";
+				else
+				document.getElementById("mylist").style.display = "none";
+
+
+
+			}
+			function w3_close() {
+			  document.getElementById("mytext").style.display = "none";
+			}
+			</script>
 		
 	</body>
 </html>

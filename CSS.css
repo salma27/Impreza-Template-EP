@@ -1,0 +1,88 @@
+
+
+
+
+
+#mySidebar
+{
+    
+        float: right;
+        width: 55px;
+        height: 160px;
+        background-color: black;
+        margin-top: 120px;
+        text-align: center;
+        justify-content: center;
+        position: -webkit-sticky;
+        
+    position: sticky;
+    top: 120px;
+    
+
+
+}
+
+
+#see,#test,#buy,#copy
+{
+    width: 55px;
+    height: 40px;
+    border-radius: 20px/100px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    
+
+}
+.sidebar .text :hover{
+    
+    color: yellow;
+    
+}
+
+.textsid
+{
+    float: right;
+    height: 160px;
+    width: 172px;
+    margin-top: 120px;
+    background-color: black;
+    
+    
+    display : none;
+}
+#a,#b,#c,#d
+{
+    height: 43px;
+    color: white;
+    
+   margin-left: 5px;
+
+
+}
+
+
+.w-switcher-section-list{
+width: 200px;    
+float: right;
+margin: 0px;
+height: 600px;
+display : none;
+overflow: scroll;
+
+}
+
+
+a {
+    text-decoration: none !important;
+}
+.demo-title
+{
+    text-align: center;
+    
+}
+
+img{
+    width: 182px;
+    width:20;
+}
