@@ -1,0 +1,37 @@
+.navBar {
+	background-color: white;
+	overflow: hidden;
+}
+
+.navBar a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+	font-size: 28px;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+.navBar_right a {
+	float: right;
+	padding: 16px 16px;
+	font-size: 18px;
+	font-family: "Arial";
+	font-weight: normal;
+}
+
+.navBar a:hover {
+	color: #FFA500;
+}
+
+.navBar_right a:active {
+	color: #FFA500;
+	background-color: #fff5e6;
+}
+
+.navBar_right a.active {
+	color: #FFA500;
+}
+
