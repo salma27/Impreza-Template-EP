@@ -45,3 +45,23 @@ body {
 	color: #FFA500;
 	background-color: #fff5e6;
 }
+/*****************************************************************/
+
+.aboutbtn{
+	float: left;
+}
+.about{
+	display:none;
+}
+.aboutbtn:hover #aboutbtn{
+	color: #FFA500;
+}
+.aboutbtn:hover .about{
+	display: block;
+	margin-top: 50px;
+	margin-right: 35px;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
