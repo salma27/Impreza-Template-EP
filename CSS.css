@@ -27,7 +27,7 @@ body {
 	background-color: transparent;
 	padding-right: 30px;
 	border-bottom: 1px solid #DCDCDC;
-	padding-right: 30px;
+	padding-right: 0px;
 	border-bottom: 1px solid #DCDCDC;	
 }
 
@@ -192,6 +192,17 @@ img{
     width: 182px;
     width:20;
 }/*======================================== Background =====================================*/
+
+.container{
+	overflow: hidden;
+	max-width: 100%;
+	width: 100%;
+	top:0;
+	right:0;
+	left: 0;
+	
+}
+
 /******main******/
 main{
     width: 100%;
