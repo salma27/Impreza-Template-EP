@@ -178,9 +178,10 @@ body {
 width: 200px;    
 float: right;
 margin: 0px;
-height: 600px;
+height: 500px;
 display : none;
 overflow: scroll;
+margin-top: 55px;
 
 }
 
