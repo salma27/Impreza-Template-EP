@@ -22,6 +22,9 @@ body {
 	transition: top 0.3s;
 }
 
+.navbarDiv.scrolled .navbar a {
+	color: black;
+}
 .navbar {
 	overflow: hidden;
 	background-color: transparent;
@@ -31,8 +34,8 @@ body {
 }
 
 .navbar a {
+	color: white;
 	float: left;
-	color: black;
 	text-align: center;
 	padding: 10px 30px;
 	text-decoration: none;
@@ -75,6 +78,7 @@ body {
 }
 
 .about a{
+	color: black;
 	max-width: 175px;
 	width: 100%;
 	text-align: left;
