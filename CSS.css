@@ -13,6 +13,10 @@ body {
 .navbarDiv.scrolled {
 	background: white;
 }
+
+.navbarDiv.scrolled .navbar{
+	border-bottom: 1px solid #DCDCDC;	
+}
 .navbarDiv {
 	background-color: transparent;
 	position: fixed;
@@ -30,7 +34,6 @@ body {
 	background-color: transparent;
 	padding-right: 0px;
 	padding-left: 0px;
-	border-bottom: 1px solid #DCDCDC;	
 }
 
 .navbar a {
