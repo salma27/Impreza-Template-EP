@@ -13,10 +13,6 @@ body {
 .navbarDiv.scrolled {
 	background: white;
 }
-
-.navbarDiv.scrolled .navbar{
-	border-bottom: 1px solid #DCDCDC;	
-}
 .navbarDiv {
 	background-color: transparent;
 	position: fixed;
@@ -34,6 +30,7 @@ body {
 	background-color: transparent;
 	padding-right: 0px;
 	padding-left: 0px;
+	border-bottom: 1px solid #DCDCDC;	
 }
 
 .navbar a {
@@ -177,13 +174,16 @@ body {
 
 
 .w-switcher-section-list{
-width: 200px;    
+width: 170px;    
 float: right;
 margin: 0px;
 height: 500px;
 display : none;
 overflow: scroll;
-margin-top: 55px;
+/*margin-top: 55px;*/
+/*margin-left: -30px;*/
+background-color: white;
+
 
 }
 
@@ -191,15 +191,21 @@ margin-top: 55px;
 a {
     text-decoration: none !important;
 }
-.demo-title
-{
+.demo-title {
     text-align: center;
+    text-align: left;
+    margin-right: 25px;
+    font-size: 17px;
+    color: black;
+}
+.w-switcher-section-item{
     
 }
 
 img{
-    width: 182px;
+    width: 132px;
     width:20;
+    
 }/*======================================== Background =====================================*/
 
 .container{
