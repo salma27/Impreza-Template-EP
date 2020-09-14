@@ -5,10 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="CSS.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<<<<<<< HEAD
 
 	<!-- is this best practice? -->
 	<div class="container">
 	<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+=======
+	<div class="navbarDiv">
+		<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+>>>>>>> db18fc6458474f7481ca65d3ce6ced09fa51da26
 			<a href="#impreza">IMPREZA</a>
 			<div class="navBar_right">
 				
@@ -29,14 +34,23 @@
 				
 			</div>
 		</nav>
-	
+	</div>
 	<title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
 
 	<div class="w-switcher-section-list" id="mylist">
 		<a class="w-switcher-section-item" href="http://impreza21.us-themes.com/">
 			<div class="demo-title">Real Estate</div>
+=======
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+<div class="w-switcher-section-list" id="mylist">
+	<a class="w-switcher-section-item" href="http://impreza21.us-themes.com/">
+		<div class="demo-title">Real Estate</div>
+>>>>>>> db18fc6458474f7481ca65d3ce6ced09fa51da26
 		
 			<img src="https://help.us-themes.com/uploads/demos/impreza/realestate/preview.jpg" data-src="" alt="Real Estate">
 		</a>
@@ -72,7 +86,7 @@
 		</a>
 	</div>
 	
-	<!--=============== Background =================-->
+	 <!--=============== Background =================-->
 	<main id="page-content" class="l-main" itemprop="mainContentOfPage">
 		<section class="l-section wpb_row height_full valign_center color_secondary with_img with_video with_overlay with_shape" id="home">
 			<div class="w-btn type_exportdata">Copy Section</div>
@@ -124,7 +138,6 @@
 			</div>
 		</section>
 	</main>
-		 
 
 		<script>
 			function w3_open() {
@@ -143,6 +156,16 @@
 			}
 			function w3_close() {
 			  document.getElementById("mytext").style.display = "none";
+			}
+			
+			
+			var navbar = document.querySelector('.navbarDiv')
+			window.onscroll = function() {
+				if (window.pageYOffset > 0) {
+					navbar.classList.add('scrolled')
+				} else {
+					navbar.classList.remove('scrolled')
+				}
 			}
 			</script>
 		
