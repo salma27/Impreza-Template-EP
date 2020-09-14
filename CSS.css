@@ -204,11 +204,15 @@ img{
 }
 
 /******main******/
+#page-content{
+	top:0px;
+	background-color: transparent;
+}
 main{
     width: 100%;
     flex-grow: 1;
     margin: 0px auto;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 /****section****/
 .l-section.height_full.valign_center {
@@ -240,6 +244,14 @@ section {
 }
  
  /*************** video sitting ***************/
+ 
+ .1-section-video{
+	
+	top: 0px;
+	margin: top;
+	 
+ }
+ 
 .l-section-video > * {
     position: absolute;
     top: 50%;
