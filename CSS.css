@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 }
+/***********************************NAVBAR*****************************************/
 .navbarDiv {
 	position: -webkit-sticky;
 	background: transparent;
@@ -64,7 +65,7 @@ body {
 	color: #FFA500;
 	background-color: #fff5e6;
 }
-/*****************************************************************/
+/*******************************************ABOUT LIST*************************************************/
 
 .aboutbtn{
 	float: left;
@@ -98,23 +99,27 @@ body {
 	color: white;
 }
 
-/***************************************************************/
+/*****************************************************************************************/
 
 
-
+.side{
+	position: fixed;
+	right: 0;
+	top: 100px;
+	z-index: 1;
+}
 
 #mySidebar
 {
     
-        float: right;
-        width: 55px;
-        height: 160px;
-        background-color: black;
-        margin-top: 120px;
-        text-align: center;
-        justify-content: center;
-        position: -webkit-sticky;
-        
+    float: right;
+    width: 55px;
+    height: 160px;
+    background-color: black;
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+    position: -webkit-sticky;  
     position: sticky;
     top: 120px;
     
