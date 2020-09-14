@@ -1,5 +1,7 @@
 /*Salma:navbar needs to be modified later 
-  so that it can have the same background as the video*/
+  so that it can have the same background as the video
+  Mahmuod : Done
+*/
 
 
 body {
@@ -17,9 +19,10 @@ body {
 
 .navbar {
 	overflow: hidden;
-	/*background-color: white;
-	*/padding-right: 30px;
-	border-bottom: 1px solid #DCDCDC;
+	background-color: transparent;
+	padding-right: 30px;
+	//border-bottom: 1px solid #DCDCDC;
+	
 	
 }
 
@@ -180,4 +183,159 @@ a {
 img{
     width: 182px;
     width:20;
+}/*======================================== Background =====================================*/
+/******main******/
+main{
+    width: 100%;
+    flex-grow: 1;
+    margin: 0px auto;
 }
+/****section****/
+.l-section.height_full.valign_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.l-section.with_video {
+    overflow: hidden;
+} 
+.l-section.color_secondary {
+    color: rgb(255, 255, 255);
+}
+/**/
+.l-section {
+    position: relative;
+    margin: 0px auto;
+    background-size: cover;
+    width: 100%;
+}
+/**/
+section {
+    display: block;
+}
+.l-section.height_full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    min-height: 100vh;
+}
+ 
+ /*************** video sitting ***************/
+.l-section-video > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    height: auto;
+    width: auto;
+    transform: translate(-50%, -50%);
+} 
+.l-section-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+/***************background footer****************/
+div {
+    display: block;
+} 
+.l-section-shape.pos_bottom {
+    bottom: -1px;
+}
+.l-section-shape {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 15vh;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+} 
+
+/************** status of content*************/
+.l-subheader-h, .l-section-h, .l-main .aligncenter, .w-tabs-section-content-h {
+    max-width: 1140px;
+}
+.l-section-h {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+}/*Media Query Function*/
+@media (min-width: 768px){ 
+.vc_col-sm-12 {
+    width: 100%;
+}} 
+.us_custom_18cacfbe {
+    font-size: 5vmax!important;
+    line-height: 1.1!important;
+}
+.align_center {
+    text-align: center;
+}
+h1 {
+    font-family: sans-serif;
+    line-height: 1.4;
+    padding-top: 1.5rem;
+    margin: 0px 0px 1.5rem;
+} 
+.w-separator {
+    clear: both;
+    line-height: 0;
+    height: 1.5rem;
+    overflow: hidden;
+}
+.w-btn-wrapper.align_left {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1.9rem;
+}
+.w-btn-wrapper {
+    margin: 0.3rem 0px;
+}
+.align_left {
+    text-align: left;
+}
+
+/*********************first anchor********************/
+.l-section.color_primary a, .l-section.color_secondary a {
+    color: inherit;
+}
+.us-nav-style_1 > *, .navstyle_1 > .owl-nav div, .us-btn-style_1 {
+    font-family: Alata, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0.1em 0.2em;
+    line-height: 1.2 !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 0.2em;
+    padding: 0.8em 1.8em;
+    background: rgb(255, 166, 51);
+    border-color: transparent;
+} 
+
+/******************* second anchor **********************/
+.us-nav-style_4 > *, .navstyle_4 > .owl-nav div, .us-btn-style_4 {
+    font-family: Alata, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0.1em 0.2em;
+    line-height: 1.2 !important;
+    color: rgb(51, 51, 51) !important;
+    border-radius: 0.2em;
+    padding: 0.8em 1.8em;
+    background: rgb(255, 255, 255);
+    border-color: transparent;
+} 
+/*End The First page:
+	- 14 , 9 , 2020
+	- 4:04 PM
+*/
