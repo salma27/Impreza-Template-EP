@@ -6,11 +6,21 @@ body {
 	margin: 0;
 }
 
+.navbarDiv {
+	background-color: transparent;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	transition: top 0.3s;
+}
+
 .navbar {
 	overflow: hidden;
-	background-color: white;
-	padding-right: 30px;
+	/*background-color: white;
+	*/padding-right: 30px;
 	border-bottom: 1px solid #DCDCDC;
+	
 }
 
 .navbar a {
@@ -25,16 +35,16 @@ body {
 }
 
 .navbar a:hover {
-	background-color: white;
-	color: #FFA500;
+	/*background-color: white;
+	*/color: #FFA500;
 }
 
 .navbar a.active {
-	background-color: white;
-	color: #FFA500;
+	/*background-color: white;
+	*/color: #FFA500;
 }
 
-.navBar_right {
+.navBar_right {	
 	float: right;
 }
 
@@ -47,7 +57,7 @@ body {
 
 .navBar_right a:active {
 	color: #FFA500;
-	background-color: #fff5e6;
+	/*background-color: #fff5e6;*/
 }
 /*****************************************************************/
 
@@ -76,6 +86,7 @@ body {
 	position: absolute;
 	background-color: white;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 30;
 }
 
 .about a:hover {
