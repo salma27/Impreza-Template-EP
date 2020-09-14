@@ -1,11 +1,15 @@
-/*Salma:navbar needs to be modified later 
-  so that it can have the same background as the video*/
-
-
 body {
 	margin: 0;
 }
+.navbarDiv {
+	position: -webkit-sticky;
+	background: transparent;
+	transition: background .5s; 
+}
 
+.navbarDiv.scrolled {
+	background: white;
+}
 .navbarDiv {
 	background-color: transparent;
 	position: fixed;
@@ -17,8 +21,7 @@ body {
 
 .navbar {
 	overflow: hidden;
-	/*background-color: white;
-	*/padding-right: 30px;
+	padding-right: 30px;
 	border-bottom: 1px solid #DCDCDC;
 	
 }
@@ -35,13 +38,11 @@ body {
 }
 
 .navbar a:hover {
-	/*background-color: white;
-	*/color: #FFA500;
+	color: #FFA500;
 }
 
 .navbar a.active {
-	/*background-color: white;
-	*/color: #FFA500;
+	color: #FFA500;
 }
 
 .navBar_right {	
