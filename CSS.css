@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-/*Salma:navbar needs to be modified later 
-  so that it can have the same background as the video
-  Mahmuod : Done
-*/
 
-
-=======
->>>>>>> db18fc6458474f7481ca65d3ce6ced09fa51da26
 body {
 	margin: 0;
 }
@@ -30,16 +22,11 @@ body {
 
 .navbar {
 	overflow: hidden;
-<<<<<<< HEAD
 	background-color: transparent;
 	padding-right: 30px;
-	//border-bottom: 1px solid #DCDCDC;
-	
-=======
-	padding-right: 30px;
 	border-bottom: 1px solid #DCDCDC;
->>>>>>> db18fc6458474f7481ca65d3ce6ced09fa51da26
-	
+	padding-right: 30px;
+	border-bottom: 1px solid #DCDCDC;	
 }
 
 .navbar a {
