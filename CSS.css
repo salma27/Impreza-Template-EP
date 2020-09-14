@@ -6,6 +6,7 @@ body {
 	position: -webkit-sticky;
 	background: transparent;
 	transition: background .5s; 
+	z-index: 1;
 }
 
 .navbarDiv.scrolled {
