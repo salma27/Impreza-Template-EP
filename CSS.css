@@ -423,8 +423,8 @@ h1 {
 }
 .imgsBlock img{
 	float: left;
-	min-width: 24.6%;
-	border: 2.5px solid white;
+	min-width: 24.8%;
+	border: 1px solid white;
 	height: 250px;
 }
 
