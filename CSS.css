@@ -109,6 +109,27 @@ body {
 	color: white;
 }
 
+/*******************************************OUR PROJECTS*************************************************/
+
+.ourProjects{
+	font-weight: 500;
+	font-size: 2.5rem;
+	font-style: bold;
+	text-align: center;
+}
+
+#our{
+	color: #FFA500;
+	
+}
+
+#para{
+	font-family: "Arial";
+	font-size: 1.5rem;
+	font-weight: 200;
+	text-align: center;
+}
+
 /*****************************************************************************************/
 
 
