@@ -418,6 +418,7 @@ h1 {
 
 .imgsBlock{
 	float: left;
+	position: relative;
 	min-width: 100%;
 	min-height: 100%;
 }
