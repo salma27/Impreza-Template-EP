@@ -418,20 +418,59 @@ h1 {
 
 .imgsBlock{
 	float: left;
-	position: relative;
 	min-width: 100%;
 	min-height: 100%;
 }
-.imgsBlock img{
+
+.fade {
 	float: left;
+	position: relative;
 	min-width: 24.8%;
 	border: 1px solid white;
+}
+
+.fade a{
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.fade img {	
+	display: block;
+	width: 313px;
 	height: 250px;
 }
 
-.txt{
-	display: none;
+.txtBox {
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 0px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #ffa633;
 }
+
+.fade:hover .txtBox {
+	opacity: 1;
+}
+
+.txt {
+	color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 18px;
+	font-family: "Arial";
+	position: absolute;
+	top: 50%;
+	left: 44%;
+	transform: translate(-50%, -50%);
+}
+
 /*****************************************************************************************/
 
 
