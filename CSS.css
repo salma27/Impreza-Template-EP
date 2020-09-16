@@ -583,6 +583,59 @@ h1 {
 }
 
 /*****************************************************************************************/
+/******** OUR SERVICES*******/
+.OS
+{
+  width: 100%;
+  height: 250px;
+  background-color:#e5e2e28f;;
+  color: black;
+  text-align: center;
+  font-size: 2.5em;
+ /* margin: 7%;*/
+  margin-top: 500px;
+}
+
+
+
+.OS h1 {
+  font-family: sans-serif;
+  line-height: 3.4;
+  padding-top: 1.5rem;
+  margin: 0px 0px 1.5rem;
+  
+
+} 
+
+.ourservices
+{
+  height: 530px;
+  color: black;
+
+}
+
+.ourservices img
+{
+  height: 530px;
+  float:right;
+  width: 31%;
+
+}
+.icons{
+  width: 23%;
+  text-align: center;
+  height: 50%;
+  background-color:white;
+  font-size: 35px;
+  float: left;
+}
+
+.icons i{
+  color: rgb(255 166 51);
+  margin: 15px;
+  font-size: 100px;
+}
+
 
 
 
