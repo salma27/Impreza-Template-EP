@@ -326,7 +326,7 @@
 	<div class="LP">
 		<h1> <span id="our"> LATEST  </span> POSTS </h1>
 
-<biv id="first">
+<div id="first">
 
 		
 		<div class="post">		
@@ -373,10 +373,10 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie…
 				<p>
 		</div>
-</biv>		
+</div>		
 
-		 <button type="button" id="collapsible" onclick="show()">Show More</button>
-		
+		<div class="loader" id="load"></div>
+		<button type="button" id="collapsible" onclick="show()">Show More</button>
 
 <div id="second">
 		<div class="post">
@@ -469,12 +469,17 @@
 			function w3_close() {
 			  document.getElementById("mytext").style.display = "none";
 			}
-
+			
+			function showMore(){
+				document.getElementById("load").style.display = "none";
+				document.getElementById("second").style.display = "block";
+			}
+			
 			function show()
 			{
 				document.getElementById("collapsible").style.display = "none";
-				document.getElementById("second").style.display = "block";
-
+				document.getElementById("load").style.display = "block";
+				setTimeout(showMore, 1000);
 			}
 			
 			
