@@ -784,8 +784,26 @@ h1 {
     font-family: "Arial";
 	font-size: 16px;
 	text-align: left;
-    opacity: 0.5;
+    opacity: .7;
     margin-left: 240px;
+}
+.comment a{
+    font-family: "Arial";
+    
+    font-size: 16px;
+    color: black;
+    padding: 0px;
+    font-weight: normal;
+    opacity: .5;
+    float: none;
+    margin-left: 15px;
+    
+
+}
+.comment a:hover{
+    color: black;
+    opacity: 1;
+
 }
 
 
