@@ -877,3 +877,30 @@ h1 {
 #viewteam:hover{
     color:black;
 }
+
+/***********************************************/
+
+.quotes{
+	float: left;
+	max-width: 50%;
+}
+
+.quotes i{
+	font-size: 50px;
+	color: #ffa633;
+}
+
+.quotes p{
+	padding-left: 30px;
+	font-size: 18px;
+	font-family: "Arial";
+}
+.quotes h3{
+	padding-left: 30px;
+	margin-bottom: 0px;
+	font-family: "Arial";
+}
+#shaded{
+	margin-top: 0px;
+	opacity: 0.7;
+}
