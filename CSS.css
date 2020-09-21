@@ -862,3 +862,18 @@ h1 {
 }
 
 
+/******************about us****************/
+
+#value{
+    color:black;
+    font-size: 50px;
+}
+
+#viewteam{
+    font-family: 'Grandstander', cursive;
+    color:rgb(239 145 25);
+}
+
+#viewteam:hover{
+    color:black;
+}
