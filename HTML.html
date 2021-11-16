@@ -22,13 +22,13 @@
 						<a id="aboutbtn" href="#about">ABOUT</a>
 						<div class="about">
 							<a href="#advantages">OUR ADVANTAGES</a>
-							<a href="#team">OUR TEAM</a>
-							<a href="#clients">OUR CLIENTS</a>
+							<a href="#OurTeam">OUR TEAM</a>
+							<a href="#viewT">OUR CLIENTS</a>
 							<a href="#blog">OUR BLOG</a>
 							
 						</div>
 					</div>
-					<a href="#contact">CONTACT</a> </li>
+					<a href="#contactUS">CONTACT</a> </li>
 				
 			</div>
 		</nav>
@@ -243,7 +243,7 @@
 
 	<!----------------------------------OUR SERVICES------------------------------------>
 	
-	<div class="OS">
+	<div class="OS" id="services">
 
 		<h1 > <span id="our"> OUR </span> SERVICES </h1>
 		</div>
@@ -307,7 +307,7 @@
 											</a>
 										</div>
 										<div class="w-btn-wrapper width_auto align_left">
-											<a id="viewteam" href="#about">
+											<a id="viewteam" href="#viewT">
 												<i class="fa fa-comments"></i> View Testimonials
 												
 											</a>
@@ -324,7 +324,7 @@
 		  </div>
 
 	<!------------------------------------------------------------------------------------------>
-	<div class="fromZero">
+	<div class="fromZero" id="advantages">
 		
 		<div class="iconSection">
 			<i class="fa fa-rocket"></i>
@@ -387,7 +387,7 @@
 	</div>
 	<!--------------------------------------------------------------------------------------------------->
 		
-		<div class="container">
+		<div class="container" id="viewT">
 	<main id="page-content" class="l-main" itemprop="mainContentOfPage">
 		<section class="l-section wpb_row height_full valign_center color_secondary with_img with_video with_overlay with_shape" id="home">
 			<div class="l-section-video" data-video-disable-width="600">
@@ -432,8 +432,8 @@
 	
 	
 	
-	<!--------------------------------------------------------------------------------------------------->
-	<div class="LP">
+	<!--------------------------------------------LAST POSTS------------------------------------------------------->
+	<div class="LP" id="blog">
 		<h1> <span id="our"> LATEST  </span> POSTS </h1>
 
 <div id="first">
@@ -526,12 +526,12 @@
 
 
 	
-	<div class="contact">
+	<div class="contact" >
 
 		
 		<div class="cp">
-		<div  id="client" onmouseenter="count(182)"> <p id="demo"></p> Clients </br> satisfied </div>
-		<div  id="project"  onmouseenter="count2(265)"> <p id="demo2"></p> Projects </br> completed </div>
+		<div  id="client" > <p id="demo"></p> Clients </br> satisfied </div>
+		<div  id="project"  > <p id="demo2"></p> Projects </br> completed </div>
 		</div>
 		<div class="media">
 			
@@ -550,7 +550,7 @@
 
 		<!-----------------------------------------CONTACT US------------------------------------->
 	
-	<div class="container">
+	<div class="container" id="contactUS">
 	<main id="page-content" class="l-main" itemprop="mainContentOfPage">
 		<section class="l-section wpb_row height_full valign_center color_secondary with_img with_video with_overlay with_shape" id="home">
 			<div class="l-section-video" data-video-disable-width="600">
@@ -660,13 +660,16 @@
 			window.onscroll = function() {
 				if (window.pageYOffset > 0) {
 					navbar.classList.add('scrolled')
+
+					if (document.body.scrollTop > 5500 || document.documentElement.scrollTop > 5500) {
+                     count(182)
+	                 count2(265)
+                    }
+					
 				} else {
 					navbar.classList.remove('scrolled')
 				}
 			}
-
-
-
 
 			function count(max){
 				if(document.getElementById("demo").innerHTML=="")
@@ -701,6 +704,10 @@
 
 	
 			}
+
+
+
+			
 
 
 

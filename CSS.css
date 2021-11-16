@@ -593,7 +593,7 @@ h1 {
 .OS
 {
   width: 100%;
-  height: 250px;
+  height: 200px;
   background-color:#e5e2e28f;;
   color: black;
   text-align: center;
@@ -959,7 +959,8 @@ h1 {
 	padding-right: 0px;
 	padding-left: 30px;
 	text-align: left;
-	border: none;
+    border: none;
+    outline: none;
 }
 
 .fa-user, .fa-at, .fa-pencil{
@@ -970,16 +971,20 @@ h1 {
 .formInput .msg{
 	font-size: 18px;
 	padding-left: 30px;
-	min-height: 7em;
+	min-height: 3em;
 	min-width: 0%;
 	width: 510px;
     border-radius: 0.3em;
-	border: none;
+    border: none;
+    padding-bottom: 4em;
+    outline: none;
 	
 }
 
 .formInput input:focus{
-	border: 3.5px solid #ffa633;
+    outline:block;
+    border: 2px solid #ffa633;
+    
 }
 
 .ContactUsForm button{
