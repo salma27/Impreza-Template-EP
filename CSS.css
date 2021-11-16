@@ -30,6 +30,9 @@ body {
 .navbarDiv.scrolled .navbar a {
 	color: black;
 }
+.navbarDiv.scrolled a:hover{
+	color: #ffa633;
+}
 .navbar {
 	overflow: hidden;
 	background-color: transparent;
@@ -51,6 +54,7 @@ body {
 .navbar a:hover {
 	color: #ffa633;
 }
+
 
 .navbar a.active {
 	color: #ffa633;
@@ -108,7 +112,9 @@ body {
 	padding-right: 7px;
 	color: white;
 }
-
+.navbarDiv.scrolled .about a:hover{
+	color: white;
+}
 /*****************************************************************************************/
 
 
